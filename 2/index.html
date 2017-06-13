@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вопрос 1</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="card_2" class="card-wrapper"> 
+            <div class="front"> 
+                <img src="front.png" />
+            </div> 
+            <div class="back">
+                <img src="back.png" />
+            </div> 
+        </div>
+    </div>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="jquery.flip.min.js"></script>
+<script>
+    $("#card_2").flip({
+        axis: "y",
+        trigger: "click"
+    });
+</script>
+</body>
+</html>

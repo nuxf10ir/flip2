@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: auto;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.card-wrapper {
+    cursor: pointer;
+    margin: 45px 0;
+}
